@@ -121,6 +121,7 @@ alias d="docker"
 #Other Aliases
 alias c="clear"
 alias mp="multipass"
+alias chz="chezmoi"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -129,6 +130,9 @@ export NVM_DIR="$HOME/.nvm"
 ## KUBE PS1
 source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
 PROMPT='$(kube_ps1)'$PROMPT
+
+## KUBECTL KREW PATH UPDATE 
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 ## Custom functions
 watch_hr() {
