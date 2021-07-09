@@ -41,4 +41,4 @@ brew "hashicorp/tap/packer", link: false
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 brew "norwoodj/tap/helm-docs"
-brew "warrensbox/tap/tgswitch"
+brew "warrensbox/tap/tgswitch" 
