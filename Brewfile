@@ -34,6 +34,7 @@ brew "tree"
 brew "watch"
 brew "wget"
 brew "yq"
+brew "zsh"
 brew "fluxcd/tap/flux"
 brew "googlecontainertools/kpt/kpt"
 brew "hashicorp/tap/packer", link: false
