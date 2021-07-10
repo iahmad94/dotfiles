@@ -108,6 +108,7 @@ alias kgp="kubectl get pods"
 alias gs="git status"
 alias ga="git add"
 alias gcm="git commit -m"
+alias gcms="git commit -S -m"
 alias gd="git diff"
 ## gr is used to traverse back up to the git root
 alias gr='cd $(git rev-parse --show-cdup)'
