@@ -144,4 +144,6 @@ watch_hr() {
   watch -n 10 "kubectl get hr -n bigbang"
 }
 
+## Direnv
+eval "$(direnv hook zsh)"
 
