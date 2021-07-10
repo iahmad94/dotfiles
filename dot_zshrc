@@ -135,6 +135,10 @@ PROMPT='$(kube_ps1)'$PROMPT
 ## KUBECTL KREW PATH UPDATE 
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
+## Azure-cli completion
+autoload -U +X bashcompinit && bashcompinit
+source ~/az.completion
+
 ## Custom functions
 watch_hr() {
   watch -n 10 "kubectl get hr -n bigbang"
