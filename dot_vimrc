@@ -16,6 +16,7 @@ Plugin 'Syntastic'
 Plugin 'https://github.com/tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
+Plugin 'hashivim/vim-terraform'
 
 
 " All of your Plugins must be added before the following line
@@ -59,4 +60,13 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
     \ quit | endif
 " keybindings
 nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+"
+" Terraform Plugin
+"
+let g:terraform_fmt_on_save=1
+let g:terraform_align=1
 
