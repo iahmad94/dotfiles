@@ -14,7 +14,7 @@ shift + alt - l : yabai -m window --warp east
 lctrl + alt - e : yabai -m space --balance
 
 # Rotate windows clockwise and anticlockwise
-alt - r         : yabai -m space --rotate 270
+alt - r         : yabai -m space --rotate 180
 shift + alt - r : yabai -m space --rotate 90
 
 # Make window native fullscreen
