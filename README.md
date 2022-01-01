@@ -27,6 +27,12 @@ nvm install v16.13.1
 ```
 npm install --global yarn
 ```
+- Install neovim, need to install older version since lvim isn't working with `0.6.1`
+```bash
+curl -LO https://github.com/neovim/neovim/releases/download/v0.5.1/nvim-macos.tar.gz
+tar xvf nvim-macos.tar.gz  
+mv 
+```
 - Install Lunar Vim
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
