@@ -13,7 +13,7 @@ sh -c "$(curl -fsLS git.io/chezmoi)" -- init --apply iahmad94
 ```
 - Brew install packages
 ```bash
-brew bundle
+brew bundle install
 ```
 - Install Rust
 ```bash
@@ -35,6 +35,11 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 ## Run: 
 npm config get prefix
 yarn config set prefix <output of above command>
+```
+- Start brew services
+```bash
+brew services start skhd
+brew services start yabai
 ```
 
 
