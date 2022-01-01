@@ -31,7 +31,7 @@ npm install --global yarn
 ```bash
 curl -LO https://github.com/neovim/neovim/releases/download/v0.5.1/nvim-macos.tar.gz
 tar xvf nvim-macos.tar.gz  
-mv 
+# .zshrc has this path added to the $PATH 
 ```
 - Install Lunar Vim
 ```bash
