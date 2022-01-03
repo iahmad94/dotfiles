@@ -48,4 +48,5 @@ brew services start skhd
 brew services start yabai
 ```
 
+- [Install Slack](https://slack.com/help/articles/207677868-Download-Slack-for-Mac)
 
