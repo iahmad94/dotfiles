@@ -62,7 +62,7 @@ brew "fluxcd/tap/flux"
 brew "googlecontainertools/kpt/kpt"
 brew "hashicorp/tap/packer", link: false
 brew "koekeishiya/formulae/skhd"
-brew "koekeishiya/formulae/yabai"
+brew "koekeishiya/formulae/yabai", args: ["HEAD"]
 brew "mongodb/brew/mongodb-community"
 brew "norwoodj/tap/helm-docs"
 brew "olets/tap/zsh-abbr"
@@ -74,3 +74,4 @@ cask "discord"
 cask "font-jetbrains-mono-nerd-font"
 cask "keycastr"
 cask "multipass"
+cask "spotify"
