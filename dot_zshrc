@@ -1,6 +1,9 @@
 # Add Brew stuff to shell
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+autoload -Uz compinit
+compinit
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/ismailahmad/.oh-my-zsh"
 
@@ -74,5 +77,10 @@ eval "$(zoxide init zsh)"
 ## Custom functions
 watch_hr() {
   watch -n 10 "kubectl get hr -n bigbang"
+}
+
+timezsh() {
+  shell=${1-$SHELL}
+  for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
 }
 
